@@ -22,12 +22,5 @@ def countword()->int:
     return countWord
     
     
-name='text.txt'    
-fhand=open(name)
-File=fhand.read().split()
 
-for i in range(1,len(File)):
-    File[i]=revword(File[i])
 
-       
-print(countword())
