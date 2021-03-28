@@ -23,4 +23,7 @@ def countword()->int:
     
     
 
+    
+    
+print(countword())
 
