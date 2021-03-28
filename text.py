@@ -19,8 +19,9 @@ def countword()->int:
         File[i]=revword(File[i])
         if File[i] == File[0] :
             countWord=countWord+1
-    return print(countWord)
+    print(countWord)
+    return countWord
     
  
-
+countword()
 
