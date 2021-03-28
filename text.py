@@ -21,9 +21,6 @@ def countword()->int:
             countWord=countWord+1
     return countWord
     
-    
-
-    
-    
-print(countword())
+ 
+countword()
 
